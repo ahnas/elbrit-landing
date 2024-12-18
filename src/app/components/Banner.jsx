@@ -33,7 +33,7 @@ const SideContent = ({ image, title, description }) => {
 
 const Banner = () => {
     return (
-        <div className="bg-[#E2F5FB] mx-[32px] sm:mx-[16px] md:mx-[24px] lg:mx-[32px] pb-[130px] sm:pb-[150px] md:pb-[180px] lg:pb-[200px]">
+        <div className="bg-[#E2F5FB] mx-[32px] sm:mx-[16px] md:mx-[24px] lg:mx-[32px] pb-[130px] sm:pb-[150px] md:pb-[180px] lg:pb-[250px]">
             <h1 className="font-bold text-[40px] sm:text-[50px] md:text-[80px] lg:text-[155px] text-[#003569] text-center pt-[20px] sm:pt-[30px] md:pt-[50px] lg:pt-[65px]">
                 Essential Vitamins
             </h1>
@@ -76,7 +76,7 @@ const Banner = () => {
                     />
                 </div>
             </div>
-            <div className="flex gap-4 mt-[40px] sm:mt-[60px] justify-center sm:justify-start ml-0 sm:ml-[20%]">
+            <div className="flex gap-4 mt-[40px] sm:mt-[60px] justify-center sm:justify-start ml-0 sm:ml-[10%]">
                 <div className="w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] bg-[#a6b8cb] rounded-full"></div>
                 <div className="w-[30px] h-[30px] sm:w-[40px] sm:h-[40px] bg-[#a6b8cb] rounded-full"></div>
             </div>
