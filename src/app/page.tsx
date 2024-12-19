@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Service from './components/Service';
 import Ingredient from './components/Ingredient';
 import Blog from './components/Blog';
+import Footer from './components/Footer';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Service />
       <Ingredient />
       <Blog />
+      <Footer />
     </>
   )
 }

@@ -1,11 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import banner from '../assets/image/banner.png'
-import vitamin from '../assets/image/vitamin.png'
-import weightLoss from '../assets/image/weightLoss.png'
-import fucntionalFoods from '../assets/image/fucntionalFoods.png'
-
-
+import banner from '../assets/image/banner.png';
+import vitamin from '../assets/image/vitamin.png';
+import weightLoss from '../assets/image/weightLoss.png';
+import fucntionalFoods from '../assets/image/fucntionalFoods.png';
 
 const SideContent = ({ image, title, description }) => {
     return (
@@ -17,6 +15,7 @@ const SideContent = ({ image, title, description }) => {
                     alt="banner"
                     width={75}
                     height={75}
+                    loading="lazy" 
                 />
                 <div className="mt-2 sm:mt-0">
                     <h3 className="text-[#17414F] text-[20px] sm:text-[26px] font-semibold">
@@ -56,6 +55,7 @@ const Banner = () => {
                         alt="banner"
                         width={434}
                         height={462}
+                        loading="lazy"
                     />
                 </div>
                 <div className="w-full lg:w-auto place-self-end">

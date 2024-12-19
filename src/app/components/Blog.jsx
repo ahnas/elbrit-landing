@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import item1 from '../assets/image/b1.png'
 import item2 from '../assets/image/b2.png'
 

@@ -17,7 +17,7 @@ const Item = ({ image, title, description }) => {
       <h4 className="text-[#2D3F59] text-[26px] font-semibold">{title}</h4>
       <p className="text-[#727272] text-[20px] font-medium pt-[10px]">{description}</p>
       <a
-        href="#"
+        href=""
         className="text-[#003569] text-[16px] font-semibold mt-auto pointer hover:underline"
       >
         SEE MORE
@@ -46,7 +46,7 @@ const Ingredient = () => {
         <Item image={item4} title="Hyaluronic Acid" description="For smooth, supple and soft skin!" />
         <Item image={item5} title="Lactobacillus" description="Invigorate your gut microbiome" />
 
-        <Image src={item6} alt="banner" className='w-[100px] h-[266px]' />
+        <Image src={item6} alt="banner" className='w-[100px] h-[266px]' loading="lazy"/>
 
       </div>
     </>
