@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Banner from './components/Banner';
 import Service from './components/Service';
+import Ingredient from './components/Ingredient';
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Service />
+      <Ingredient />
     </>
   )
 }
