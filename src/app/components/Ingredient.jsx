@@ -11,7 +11,7 @@ import item6 from '../assets/image/last.jpg';
 const Item = ({ image, title, description }) => {
   return (
     <div
-      className="w-[411px] h-[266px] rounded-[20px] py-[30px] px-[40px] flex flex-col"
+      className="lg:w-[411px] w-full h-[266px] rounded-[20px] py-[30px] px-[40px] flex flex-col bg-no-repeat bg-center bg-cover"
       style={{ backgroundImage: `url(${image.src})` }}
     >
       <h4 className="text-[#2D3F59] text-[26px] font-semibold">{title}</h4>
