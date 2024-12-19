@@ -15,7 +15,8 @@ const SideContent = ({ image, title, description }) => {
                     alt="banner"
                     width={75}
                     height={75}
-                    loading="lazy" 
+                    loading="lazy"
+                    placeholder='blur'
                 />
                 <div className="mt-2 sm:mt-0">
                     <h3 className="text-[#17414F] text-[20px] sm:text-[26px] font-semibold">
@@ -37,7 +38,7 @@ const Banner = () => {
                 Essential Vitamins
             </h1>
             <div className="flex flex-col lg:flex-row justify-between items-center px-6 md:px-8 lg:px-16 gap-8">
-                <div className="w-full lg:w-[270px] text-center lg:text-left">
+                <div className="w-full lg:w-[270px] text-center lg:text-left sm:mb-[50px]">
                     <p className="text-[#727272] text-[18px] sm:text-[22px] lg:text-[25px] mb-4">
                         Online Medical Supplies
                     </p>
@@ -56,6 +57,7 @@ const Banner = () => {
                         width={434}
                         height={462}
                         loading="lazy"
+                        placeholder='blur'
                     />
                 </div>
                 <div className="w-full lg:w-auto place-self-end">

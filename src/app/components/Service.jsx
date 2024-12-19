@@ -18,6 +18,7 @@ const ServiceItem = ({ image, title, description }) => {
                 width={130}
                 height={130}
                 loading="lazy"
+                placeholder='blur'
             />
             <h4 className="text-white text-[20px] sm:text-[26px] my-[10px] font-medium">
                 {title}

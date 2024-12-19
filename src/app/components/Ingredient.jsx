@@ -46,7 +46,7 @@ const Ingredient = () => {
         <Item image={item4} title="Hyaluronic Acid" description="For smooth, supple and soft skin!" />
         <Item image={item5} title="Lactobacillus" description="Invigorate your gut microbiome" />
 
-        <Image src={item6} alt="banner" className='w-[100px] h-[266px]' loading="lazy"/>
+        <Image src={item6} alt="banner" className='w-[100px] h-[266px]' loading="lazy" placeholder='blur'/>
 
       </div>
     </>

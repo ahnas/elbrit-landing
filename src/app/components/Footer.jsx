@@ -11,7 +11,7 @@ import location from '../assets/image/location.png'
 const Card = ({ icon, title, value }) => {
     return (
         <div className='bg-[#215D72] flex flex-row rounded-[15px] px-[50px] py-[20px] '>
-            <Image src={icon} alt="banner" loading="lazy"/>
+            <Image src={icon} alt="banner" loading="lazy" placeholder='blur'/>
             <div className='ml-[30px]'>
                 <h5 className='text-[20px]'>{title}</h5>
                 <a className='text-[20px] font-medium hover:underline' href="#">{value}</a>
@@ -34,6 +34,7 @@ const Footer = () => {
                     className="bg-[#fff] p-[15px]"
                     width={300}
                     loading="lazy"
+                    placeholder='blur'
                 />
 
                 <p className="text-[16px] leading-[26px] text-center lg:text-left max-w-[416px]">
@@ -41,7 +42,7 @@ const Footer = () => {
                 </p>
             </div>
             <div className="flex flex-col lg:flex-row sm:gap-[20px] lg:gap-[10px] items-center lg:items-start p-[20px] lg:ml-[4%] sm:ml-[0%]">
-                <Image src={location} alt="location" loading="lazy" />
+                <Image src={location} alt="location" loading="lazy" placeholder='blur'/>
                 <p className="text-[16px] leading-[24px] text-center lg:text-left">
                     Elbrit Life Sciences Private Limited. C20, BKC, G Block, Mumbai 400051
                 </p>
